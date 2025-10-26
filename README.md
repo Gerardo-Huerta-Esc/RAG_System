@@ -1,0 +1,1 @@
+Activación del venv: source venv/bin/activate
