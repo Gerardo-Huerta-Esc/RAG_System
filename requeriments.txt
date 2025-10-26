@@ -1,0 +1,23 @@
+# Core procesamiento distribuido
+pyspark==3.5.1
+
+# Extracción de texto desde PDF
+pdfminer.six==20231228
+pytesseract==0.3.10
+Pillow==10.2.0
+
+# Embeddings y modelos de lenguaje
+sentence-transformers==2.7.0
+
+# Base vectorial Qdrant
+qdrant-client==1.10.1
+
+# Cliente HTTP y utilidades
+requests==2.31.0
+
+# API futura (cuando montemos FastAPI)
+fastapi==0.115.0
+uvicorn==0.30.1
+
+# Testing
+pytest==8.2.1
