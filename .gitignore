@@ -1,0 +1,48 @@
+# === Python general ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Entornos virtuales ===
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# === Archivos temporales ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+
+# === Configuración y dependencias ===
+.idea/
+.vscode/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# === Datos locales / salidas ===
+data/
+*.parquet
+*.csv
+*.pdf
+
+# === Credenciales y llaves ===
+*.env
+.env.local
+*.key
+*.json
+
+# === Spark cache ===
+spark-warehouse/
+metastore_db/
+
+# === Modelos grandes ===
+models/
+embeddings_cache/
