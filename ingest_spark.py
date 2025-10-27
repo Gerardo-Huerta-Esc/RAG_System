@@ -46,7 +46,7 @@ def chunk_text(text, chunk_size=800, overlap=200):
         i += chunk_size - overlap
     return chunks
 
-chunk_udf = F.udf(chunk_text, T.ArrayType(T.StringType()))
+chunk_udf = F.udf(chunk_text, T.ArrayType(T.StringType())) 
 
 df_chunks = (
     df_texts
