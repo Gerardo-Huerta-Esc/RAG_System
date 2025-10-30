@@ -3,6 +3,7 @@ Activación del venv: source venv/bin/activate
 
 Estructura del proyecto:
 
+```bash
 RAG_System/
 │
 ├── data/
@@ -17,3 +18,4 @@ RAG_System/
 │
 ├── venv/
 └── requirements.txt
+
